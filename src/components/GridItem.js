@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export const GridItem = ({ title, url }) => {
     return (
@@ -7,4 +8,9 @@ export const GridItem = ({ title, url }) => {
             <p> { title } </p>
         </div>
     )
+}
+
+GridItem.propType = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
 }

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de GridItem Debe mostrar el campo correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeInDown"
+>
+  <img
+    alt="titulo"
+    src="https://google.com"
+  />
+  <p>
+     
+    titulo
+     
+  </p>
+</div>
+`;
